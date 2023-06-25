@@ -28,18 +28,6 @@ These benchmark results are based on the initial set of benchmarks conducted wit
   <img src="data/load_or_store-50k.png" alt="LoadOrStore Benchmark Plot" class="inline-image">
   <img src="data/delete-50k.png" alt="Delete Benchmark Plot" class="inline-image">
 </div>
-<style>
-.image-container {
-  display: flex;
-  justify-content: space-arround;
-  margin-bottom:15px;
-}
-.inline-image {
-  max-width: 40%; /* Adjust the width as needed */
-}
-</style>
-
-
 
 ## Usage:
 Import the `concurrently` package into your Go code:
